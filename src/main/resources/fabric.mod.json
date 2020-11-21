@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "worldnameextender",
+  "version": "${version}",
+  "name": "WorldNameExtender",
+  "description": "A simple mod to extend the World Name.",
+  "authors": [
+    "PheonixVX"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/WorldNameExtender/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.PheonixVX.WorldNameExtender.WorldNameExtender"
+    ]
+  },
+  "mixins": [
+    "WorldNameExtender.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.10.8",
+    "fabric": "*",
+    "minecraft": "1.16.4"
+  }
+}
